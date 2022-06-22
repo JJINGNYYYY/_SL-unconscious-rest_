@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
+
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-image: url(img/surve2/about.jpeg);
+    background-size: 1500px;
+    width: 1500px;
+    height: 60px;
+    border: 2px solid;
+}
+
+
+a {
+    text-decoration: none;
+  }
+  
+  #menu{height: 50px; border-bottom: 1px solid purple;}
+  #menu ul{display: flex; justify-content: space-evenly; align-items: center; padding: 0px;} 
+  #menu ul li{list-style: none; padding: 15px 32px; user-select: none;}
+  #menu ul li:hover{background-color: purple; color:white}
+  
+  .row{
+      position: relative;
+      display: flex;
+      width: 1440px;
+      margin: auto;
+  }
+
+.row div{padding: 10px;}
+.col-1{width: 16.66%;}
+.col-2{width: 33.33%;}
+.col-3{width: 50%;}
+.col-4{width: 66.66%;}
+.col-5{width: 83.33%;}
+.col-6{width: 100%;}
+
+.h-100{height: 100px;}
+.h-200{height: 200px;}
+.h-300{height: 300px;}
+.h-400{height: 400px;}
+
+.bg-gray{background-color: gray;}
+.bg-white{background-color: white;}
+.bg-yg{background-color: yellowgreen;}
+
+.text-kr{font-family: '에스코어드림', 's-core dream' sans-serif;}
+
+.text-title{font-size: 5rem; font-weight: 600;}
+.text-sbtitle{font-size: 3rem; font-weight: 500;}
+.text-normal{font-size: 2rem; font-weight: 300;}
+.text-menu{font-size: 2.0rem; font-weight: 700;}
+
+.text-white{color: white;}
+.text-black{color: rgb(30, 30, 30);}
+.text-orange{color: white;}
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+
+.image-fit{width: 100%;}
+
+.p-2{column-count: 2; word-break: keep-all; column-gap: 50px; column-rule: 2px solid palevioletred;}
+.p-3{column-count: 3; word-break: keep-all; column-gap: 50px; column-rule: 2px solid palevioletred;}
+
+.footer{
+    height: 200px;
+    background-color: purple;
+}
